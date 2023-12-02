@@ -26,7 +26,7 @@ class PokemonDetailPage extends StatelessWidget {
     final backgroundColor = pkmTypeColors[mainType]!;
 
     return DefaultTabController(
-      length: 4,
+      length: 3,
       child: Scaffold(
         body: NestedScrollView(
           headerSliverBuilder: (context, _) => [
@@ -71,7 +71,7 @@ class PokemonDetailPage extends StatelessWidget {
                         Tab(text: 'About'),
                         Tab(text: 'Base Stats'),
                         Tab(text: 'Evolution'),
-                        Tab(text: 'Moves'),
+                        // Tab(text: 'Moves'),
                       ],
                     ),
                   ],
